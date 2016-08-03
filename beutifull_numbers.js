@@ -13,7 +13,7 @@ function beautifyNumbers( array ) {
                 var string = array[i].toString();
                 var stringArray = string.split('');
                 for (var a=0; a<stringArray.length; a++) {
-                    result += Math.floor(stringArray[a]);
+                    result += parseInt(stringArray[a]);
                 }
                 array[i] = result;
             }
