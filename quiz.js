@@ -69,7 +69,7 @@ function question3() {
     	break;
   	default:
         alert("Please write one of the provided answers!");
-        return question2();
+        return question3();
   }
 
   responses.push(thirdQuestion);//we keep the answer in our array
